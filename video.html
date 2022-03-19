@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            border: 1px solid red;
+        } */
+        #navbar{
+            height: 100px;
+        }
+        #main{
+            display: flex;
+            height: 750px;
+            width: 90%;
+        }
+        #video_details{
+            flex: 3;
+        }
+
+        #recommendation{
+            flex: 1;
+            overflow: auto;
+            width: 90%;
+            /* border: 1px solid black; */
+        }
+        #icon{
+            height: 90px;
+            margin-left: 2%;
+        }
+        iframe{
+            margin-left: 7%;
+            margin-top: 2%;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="navbar"> <img id="icon" src="https://www.freeiconspng.com/thumbs/youtube-logo-png/youtube-logo-png-picture-2.png" alt=""></div>
+    <div id="main">
+
+        <div id="video_details"></div>
+
+        <div id="recommendation">
+            <span><h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Recommended Videos</h3></span>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./Js/video.js"></script>
