@@ -1,4 +1,5 @@
-# miniyoutube
+<h1>Mini Youtube Website clone of youtube.com</h1>
+
 <h3>This is mini youtube application that allows you to play video and watch all contents across youtube.</h3>
 <br>
 <h2>Language and Tools</h2>
